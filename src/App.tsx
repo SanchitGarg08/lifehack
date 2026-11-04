@@ -15,6 +15,7 @@ function Shell() {
   useDemoKeys()
   const idling = owned.some((d) => d.state === 'asleep')
   const x = 3
+	const y = 4
   return (
     <div className="shell flex flex-col" data-idle={idling}>
       <TopBar />
